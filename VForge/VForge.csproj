@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <!-- 
+    For packaging as a dotnet global tool 
+    https://learn.microsoft.com/dotnet/core/tools/global-tools-how-to-create
+  -->
+  <PropertyGroup>
+    <PackageId>VForge</PackageId>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>VForge</ToolCommandName>
+  </PropertyGroup>
+  
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VForge.Core\VForge.Core.csproj" />
+  </ItemGroup>
+
+</Project>

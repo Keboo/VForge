@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "VForge": {
+      "commandName": "Project"
+    },
+    "Display Help": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    },
+    "Transcribe": {
+      "commandName": "Project",
+      "commandLineArgs": "transcribe test.mp4"
+    }
+  }
+}
