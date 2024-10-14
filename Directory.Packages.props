@@ -24,7 +24,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageVersion>
     <PackageVersion Include="HuggingfaceHub" Version="0.1.3" />
-    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageVersion Include="Microsoft.ML.OnnxRuntime" Version="1.19.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
